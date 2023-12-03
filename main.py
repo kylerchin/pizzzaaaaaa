@@ -1,2 +1,5 @@
 import tkinter as tk
-from tkinter import ttk
+
+window = tk.Tk()
+greeting = tk.Label(text="Hello, Tkinter")
+greeting.pack()
